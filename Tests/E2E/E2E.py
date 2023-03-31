@@ -27,6 +27,7 @@ class E2E:
                   
         search_input = driver.find_element(By.CSS_SELECTOR, "input")
         search_input.send_keys("sony")
+        time.sleep(2)
         search_input.clear()
       
         time.sleep(10)
