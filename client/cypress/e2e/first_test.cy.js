@@ -1,5 +1,5 @@
-describe('Log in', () => {
-    it('Sign in', () => {
+describe('test', () => {
+    it('test', () => {
         try {
             cy.visit('http://localhost:5173/');
 
