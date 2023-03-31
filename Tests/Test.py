@@ -16,3 +16,4 @@ from E2E.E2E import E2E
 if __name__ == "__main__":
     E2E.install(ChromeService, ChromeDriverManager, webdriver)
     E2E.install(FirefoxService, GeckoDriverManager, webdriver)
+    
